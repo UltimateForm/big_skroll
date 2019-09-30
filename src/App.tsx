@@ -52,7 +52,6 @@ const App: React.FC<any> = (props: any) => {
 							>
 								{props => {
 									const { opacity, transform } = props;
-									console.log("spring shit props", props);
 									return (
 										<img
 											alt="punpun"
@@ -91,7 +90,6 @@ const App: React.FC<any> = (props: any) => {
 							>
 								{props => {
 									const { opacity, transform } = props;
-									console.log("spring shit props", props);
 									return (
 										<img
 											alt="punpun"
